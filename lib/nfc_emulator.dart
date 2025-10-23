@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 enum NfcStatus { unknown, enabled, notSupported, notEnabled }
 
 class NfcEmulator {
-  static const MethodChannel _channel = const MethodChannel('nfc_emulator');
+  static const MethodChannel _channel = MethodChannel('nfc_emulator');
 
   /*
    * Get platform version
